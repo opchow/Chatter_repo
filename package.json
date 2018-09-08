@@ -4,16 +4,27 @@
   "description": "Simple Web Application for posting messages.",
   "main": "server.js",
   "scripts": {
+    "start": "webpack-dev-server app/script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/opchow/Chatter_repo.git"
-  },
-  "author": "",
+  "repository": "git+https://github.com/opchow/Chatter_repo.git",
+  "author": "opchow <yychow@wpi.edu>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/opchow/Chatter_repo/issues"
   },
-  "homepage": "https://github.com/opchow/Chatter_repo#readme"
+  "homepage": "https://github.com/opchow/Chatter_repo#readme",
+  "private": false,
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.6"
+  }
 }
