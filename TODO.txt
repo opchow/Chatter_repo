@@ -1,0 +1,5 @@
+ TODO:
+
+ 1. Explore customization aspects of bootstrap-react navbar
+ 2. calculate size of image to feed into navigation bar
+ 3. Finish video for navigation bar and compare with bootstrap-react

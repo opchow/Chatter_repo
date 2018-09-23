@@ -1,0 +1,35 @@
+.innerheader {
+	width: 100%;
+	margin: 0;
+}
+
+#header {
+	margin: 0 0;
+	display:flex;
+	height: 100px;
+	flex-direction:row;
+}
+
+.logo {
+	float:left;
+	margin: 0;
+}
+
+.menu {
+	float:right;
+	width:50%;
+	margin:auto 0;
+	
+}
+
+/* override bootstrap navbar colors */
+.navbar,
+.navbar-default {
+    background-image: linear-gradient(to bottom,#381D38 0,#381D38 100%) !important; /* override background image gradient w/ flat color */
+}
+
+body {
+	margin:0 auto;
+	background: #916D9C;
+	font-weight: 300;
+}
